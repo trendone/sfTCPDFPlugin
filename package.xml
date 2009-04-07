@@ -67,5 +67,24 @@
     </required>
   </dependencies>
   <phprelease />
-  <changelog />
+  <changelog>
+    <release>
+      <version>
+        <release>1.6.0</release>
+        <api>1.6.0</api>
+      </version>
+      <stability>
+       <release>stable</release>
+       <api>stable</api>
+      </stability>
+      <license uri="http://www.symfony-project.com/license">MIT license</license>
+      <date>2009-04-02</date>
+      <license>MIT</license>
+      <notes>
+        * New configuration handler that allows to use multiple configs when generating pdf
+        * New version for symfony 1.2
+        * Reorganized svn structure of the plugin, created 1.0, 1.1 and 1.2 branch
+      </notes>
+    </release>  
+  </changelog>
 </package>
